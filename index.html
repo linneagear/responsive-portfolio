@@ -1,30 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!--the viewport helps adjust for different devices-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linnea Gear's Artwork Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="Container">
-          <!--Navbar needs to show on every page, have About, Portfolio, and Contact and links to all-->
 
-        <section id="home">
-            <a href="index.html">Home</a>
-        </section>
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: lightcoral;">
 
-        <section id="portfolio">
-            <a href="portfolio.html">Portfolio</a>
-        </section>
+        <h1>Linnea Gear</h1>
 
-        <section id="contact">
-            <a href="contact.html">Contact</a>
-        </section>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: #ffffff">About</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html" style="color: #ffffff">Portfolio</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html" style="color: #ffffff">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+
+    <!--Start of container section-->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2>About Me</h2>
+                <hr>
+
+                <!-- Add floating image -->
+                <img src="./Assets/Images/640-contact.jpg" alt="" width="200" height="300" id="hp" />
+                <p>Hi all! I'm Linnea and I have been drawing since I was 10 years old, and I have been honing my skills ever since. What started off as a hobby quickly built into a true passion of mine and I went from sketching amateur drawings of Bambi on scrap paper, to fanart of my favorite cartoons, until I finally made the jump to digital artwork.</p>
+                <p>I now do commissions part time, and am almost complete drawing my own webcomic, available for free on Tapas.</p>
+                <p>I hope you enjoy my portfolio!</p>
+
+            </div>
+        </div>
 
     </div>
-  
+
+    <!--Script codes from bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
 </body>
+
+<footer>
+</footer>
+
 </html>

@@ -1,8 +1,18 @@
 h1 {
     color: #ffffff;
     padding: 20px;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 h2 {
     color: lightseagreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Picture floating LEFT so 15px from the RIGHT */
+#hp  {
+    float: left;    
+     margin: 0 15px 0 0;
+    }
+
+    
