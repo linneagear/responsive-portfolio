@@ -25,17 +25,16 @@ html {
     min-height: 100%;
 }
 
-/* bottom = footer height. first value applies to the top, second to the right and left, third to the bottom */
+/* first value applies to the top, second to the right and left, third to the bottom. Bottom should be greater than footer height */
 body {
-    margin: 0 0 40px;
+    margin: 0 0 100px;
 }
 
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-/* see bottom = footer height*/
-    height: 40px;
+    height: 30px;
     width: 100%;
     overflow: hidden; 
     background-color: lightcoral;
@@ -47,3 +46,4 @@ footer {
 form {
     margin-left: 50px;
 }
+
