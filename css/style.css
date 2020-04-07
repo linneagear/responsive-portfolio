@@ -9,21 +9,6 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* Picture floating LEFT so 15px from the RIGHT */
-#image1 {
-    float: left;    
-    margin: 0 20px 0 0;
-    }
-
-#buttons {
-    float: right;
-}
-
-.col-sm-2 .col-md-2 .col-lg-2 {
-    padding: 50px;
-}
-
-
 /* sticky footer, save this code!! */
 html {
     position: relative;
@@ -33,6 +18,25 @@ html {
 /* first value applies to the top, second to the right and left, third to the bottom. Bottom should be greater than footer height */
 body {
     margin: 0 0 100px;
+}
+
+
+.col-sm-10 .col-md-8 .col-lg-8 {
+    padding: 50px;
+}
+
+/* Picture floating LEFT so 15px from the RIGHT */
+#image1 {
+    float: left;    
+    margin: 0 20px 0 0;
+    }
+
+form {
+    margin-left: 50px;
+}
+
+.btn {
+    background-color: lightcoral;
 }
 
 footer {
@@ -46,9 +50,5 @@ footer {
     text-align: center;
     padding: 40px;
     color: #ffffff;
-}
-
-form {
-    margin-left: 50px;
 }
 
