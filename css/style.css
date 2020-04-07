@@ -15,9 +15,14 @@ h2 {
     margin: 0 20px 0 0;
     }
 
-.col-sm-6 .col-md-8 .col-lg-8 {
+#buttons {
+    float: right;
+}
+
+.col-sm-2 .col-md-2 .col-lg-2 {
     padding: 50px;
 }
+
 
 /* sticky footer, save this code!! */
 html {
