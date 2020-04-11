@@ -28,6 +28,18 @@ The task was to use Bootstrap to develop my own portfolio site with the followin
             
     ![column Tag](./Assets/Images/Capture.JPG)
 
+    By doing this, I am able to control how it looks on a large desktop screen:
+    
+    ![Large portfolio](./Assets/Images/Capture2.JPG)
+
+    A medium screen:
+
+    ![Medium portfolio](./Assets/Images/Capture3.JPG)
+
+    And a small screen:
+
+    ![Small portfolio](./Assets/Images/Capture4.JPG)
+
 4. Each html page uses semantic html by including nav links, a container, rows, columns, and a header and footer. This way it is more accessible and will be able to be used by screenreaders.
 
 5. My page has my own background and artwork, and links to social media.
